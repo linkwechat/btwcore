@@ -9,3 +9,10 @@ At the predetermined block height, Bitcoin World miners will begin creating bloc
 ## Links
 
 * Website: https://btw.one
+
+## Donate
+
+To support development of this project feel free to donate.
+
+* BTC: `1AoXa7HhvNquT3xaxMNr5Vx4x7pf5rG81W`
+* BTW: `Wb5hBxEPyMy8pqj34Z4WvjmkEmwE7xi44U`

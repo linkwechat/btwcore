@@ -524,7 +524,9 @@ std::string HelpMessage(HelpMessageMode mode)
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/bitcoin/bitcoin>";
-    const std::string URL_WEBSITE = "<https://bitcoincore.org>";
+    const std::string URL_WEBSITE = "<https://btw.one>";
+    const std::string Donate_BTC = "1AoXa7HhvNquT3xaxMNr5Vx4x7pf5rG81W";
+    const std::string Donate_BTW = "Wb5hBxEPyMy8pqj34Z4WvjmkEmwE7xi44U";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -532,8 +534,9 @@ std::string LicenseInfo()
                        "Visit %s for further information about the software."),
                PACKAGE_NAME, URL_WEBSITE) +
            "\n" +
-           strprintf(_("The source code is available from %s."),
-               URL_SOURCE_CODE) +
+           strprintf(_("* BTC: %s"
+                       "* BTW: %s"),
+               Donate_BTC, Donate_BTW) +
            "\n" +
            "\n" +
            _("This is experimental software.") + "\n" +

@@ -3055,8 +3055,8 @@
         <translation>無法啟動 HTTP 伺服器。詳情請看除錯紀錄。</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Bitcoin World Core</source>
+        <translation>Bitcoin World Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

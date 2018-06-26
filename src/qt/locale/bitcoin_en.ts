@@ -4066,8 +4066,8 @@
     </message>
     <message>
         <location line="-384"/>
-        <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <source>Bitcoin World Core</source>
+        <translation type="unfinished">Bitcoin World Core</translation>
     </message>
     <message>
         <location line="+1"/>
