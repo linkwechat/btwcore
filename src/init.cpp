@@ -534,7 +534,8 @@ std::string LicenseInfo()
                        "Visit %s for further information about the software."),
                PACKAGE_NAME, URL_WEBSITE) +
            "\n" +
-           strprintf(_("* BTC: %s"
+           strprintf(_("* BTC: %s" +
+                       "\n" +
                        "* BTW: %s"),
                Donate_BTC, Donate_BTW) +
            "\n" +
