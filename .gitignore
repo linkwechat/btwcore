@@ -7,7 +7,7 @@ src/btw-cli
 src/bitcoin-tx
 src/test/test_bitcoin
 src/test/test_bitcoin_fuzzy
-src/qt/test/test_bitcoin-qt
+src/qt/test/test_btw-qt
 
 # autoreconf
 Makefile.in
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
+btw-qt
 Bitcoin-Qt.app
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+btw-qt_test
 
 # Resources cpp
 qrc_*.cpp
