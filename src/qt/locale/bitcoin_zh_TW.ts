@@ -3115,8 +3115,12 @@
         <translation>請檢查電腦日期和時間是否正確！%s 沒辦法在時鐘不準的情況下正常運作。</translation>
     </message>
     <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>如果你覺得 %s 有用，可以幫助我們。關於這個軟體的更多資訊請見 %s。</translation>
+        <source>Visit %s for further information about the software.</source>
+        <translation>關於這個軟體的更多資訊請見 %s。</translation>
+    </message>
+    <message>
+        <source>Please contribute if you find %s useful.</source>
+        <translation>如果你覺得 %s 有用，可以幫助我們。</translation>
     </message>
     <message>
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>

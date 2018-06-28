@@ -3089,8 +3089,12 @@
         <translation>请检查电脑的日期时间设置是否正确！时间错误可能会导致 %s 运行异常。</translation>
     </message>
     <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>如果你认为%s对你比较有用的话，请对我们进行一些捐赠支持。请访问%s网站来获取有关这个软件的更多信息。</translation>
+        <source>Visit %s for further information about the software.</source>
+        <translation>请访问%s网站来获取有关这个软件的更多信息。</translation>
+    </message>
+    <message>
+        <source>Please contribute if you find %s useful.</source>
+        <translation>如果你认为%s对你比较有用的话，请对我们进行一些捐赠支持。</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>

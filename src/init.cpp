@@ -530,10 +530,8 @@ std::string LicenseInfo()
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
-           strprintf(_("Please contribute if you find %s useful. "
-                       "Visit %s for further information about the software."),
-               PACKAGE_NAME, URL_WEBSITE) +
-           "\n" +
+           strprintf(_("Visit %s for further information about the software."), URL_WEBSITE) + "\n"
+           strprintf(_("Please contribute if you find %s useful."), PACKAGE_NAME) + "\n"
            strprintf(_("* BTC: %s"), Donate_BTC) + "\n" +
            strprintf(_("* BTW: %s"), Donate_BTW) + "\n" +
            "\n" +

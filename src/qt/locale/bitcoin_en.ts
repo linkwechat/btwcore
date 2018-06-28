@@ -4141,7 +4141,12 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <source>Visit %s for further information about the software.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Please contribute if you find %s useful.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
