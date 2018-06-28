@@ -535,7 +535,6 @@ std::string LicenseInfo()
            strprintf(_("* BTC: %s"), Donate_BTC) + "\n" +
            strprintf(_("* BTW: %s"), Donate_BTW) + "\n" +
            "\n" +
-           "\n" +
            _("This is experimental software.") + "\n" +
            strprintf(_("Distributed under the MIT software license, see the accompanying file %s or %s"), "COPYING", "<https://opensource.org/licenses/MIT>") + "\n" +
            "\n" +
